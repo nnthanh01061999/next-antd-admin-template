@@ -1,0 +1,281 @@
+{
+    "Common": {
+        "title": "NNT DASHBOARD",
+        "header": {
+            "profile-setting": "Cài đặt hồ sơ",
+            "change-locale": "Chọn ngôn ngữ",
+            "choose-subsection": "Chọn phân hệ",
+            "reset-app-config": "Đặt lại cấu hình cá nhân",
+            "logout": "Đăng xuất"
+        },
+        "sider": {
+            "choose-subsection": "Chọn phân hệ",
+            "filter": "Tìm kiếm tên, đường dẫn"
+        },
+        "bread": {
+            "not-found": "Không tìm thấy"
+        },
+        "dropdown": {
+            "update": {
+                "label": "Cập nhật"
+            },
+            "delete": {
+                "label": "Xóa",
+                "confirm": "Bạn có chắc muốn xóa bản ghi này không?"
+            },
+            "boolean": {
+                "all": "Tất cả trạng thái",
+                "true": "Hoạt động",
+                "false": "Không hoạt động"
+            }
+        },
+        "pagination": {
+            "show-total": "Tổng: {total}"
+        },
+        "table": {
+            "columns": {
+                "id": "ID",
+                "operation": {
+                    "label": " ",
+                    "delete-confirm": "Bạn chắc chắn muốn xóa bản ghi này?",
+                    "delete-file-confirm": "Bạn chắc chắn muốn xóa tệp này?"
+                },
+                "index": "STT",
+                "code": "Mã",
+                "name": "Tên",
+                "value": "Giá trị",
+                "file_name": "Tên tệp",
+                "file_size": "Kích thước tệp",
+                "file_ext": "Phần mở rộng tệp"
+            },
+            "pagination": {
+                "show-total": "Tổng: {total}"
+            },
+            "select": {
+                "total-selected": "Đã chọn {total} mục"
+            },
+            "action": {
+                "delete-multiple": {
+                    "label": "Bạn chắc chắn muốn xóa các mục này?",
+                    "action": "Xóa"
+                }
+            }
+        },
+        "filter": {
+            "label": "Bộ lọc",
+            "fields": {
+                "keyword": {
+                    "title": "Từ khóa",
+                    "placeholder": "Tìm kiếm Mã, Tên"
+                }
+            },
+            "action": {
+                "submit": "Tìm kiếm",
+                "refresh": "Xóa",
+                "close": "Hủy",
+                "create": "Thêm mới",
+                "update": "Chỉnh sửa",
+                "delete": "Xóa",
+                "view": "Xem chi tiết",
+                "reload": "Tải lại",
+                "save": "Lưu",
+                "unchecked": "Không chọn",
+                "none": "",
+                "filter": "Lọc",
+                "export": "Xuất",
+                "upload": "Tải lên",
+                "download": "Tải xuống",
+                "approved": "Duyệt",
+                "cancel": "Từ chối",
+                "close_": "Đóng"
+            }
+        },
+        "form": {
+            "add": "Thêm mới",
+            "remove": "Xóa",
+            "upload": "Nhấn để tải lên",
+            "upload_valid": "Tập tin này không hợp lệ. Loại tệp được phép là {data}",
+            "validate": {
+                "string": {
+                    "required": "Trường này là bắt buộc",
+                    "type_error": "Trường này phải là chuỗi",
+                    "min": "Trường này phải có ít nhất {min} ký tự",
+                    "max": "Trường này không được vượt quá {max} ký tự",
+                    "matches": "Định dạng không hợp lệ. Ví dụ: {example}",
+                    "matches-valid": "Định dạng không hợp lệ."
+                },
+                "number": {
+                    "required": "Trường này là bắt buộc",
+                    "type_error": "Trường này phải là số",
+                    "min": "Trường này phải lớn hơn hoặc bằng {min}",
+                    "max": "Trường này không được vượt quá {max}",
+                    "positive": "Trường này phải lớn hơn hoặc bằng 0"
+                },
+                "array": {
+                    "required": "Trường này là bắt buộc",
+                    "type_error": "Trường này phải là một mảng",
+                    "min": "Trường này phải chứa ít nhất {min} mục",
+                    "max": "Trường này không được vượt quá {max} mục"
+                },
+                "boolean": {
+                    "required": "Trường này là bắt buộc",
+                    "type_error": "Trường này phải là một boolean"
+                },
+                "date": {
+                    "required": "Trường này là bắt buộc",
+                    "type_error": "Trường này phải là một ngày tháng"
+                },
+                "email": {
+                    "required": "Trường này là bắt buộc",
+                    "type_error": "Địa chỉ email không hợp lệ"
+                },
+                "url": {
+                    "required": "Trường này là bắt buộc",
+                    "type_error": "URL không hợp lệ"
+                }
+            },
+            "enabled": {
+                "checked": "Có",
+                "unchecked": "Không"
+            },
+            "status_form": {
+                "checked": "Sử dụng",
+                "unchecked": "Ngưng sử dụng"
+            },
+            "confirm": {
+                "save": "Bạn có chắc chắn muốn lưu những thay đổi này không?"
+            },
+            "tag": {
+                "add": "Thêm"
+            }
+        },
+
+        "boolean": {
+            "true": "Hoạt động",
+            "false": "Ngưng hoạt động",
+            "all": "Tất cả"
+        },
+        "status_form": {
+            "true": "Hoạt động",
+            "false": "Ngưng hoạt động"
+        },
+        "modal": {
+            "create": "Tạo {data}",
+            "update": "Cập nhật {data}",
+            "view": "Chi tiết {data}",
+            "confirm": "Bạn có chắc muốn đóng cửa sổ?",
+            "none": "",
+            "add": "Thêm",
+            "look_up": "Tìm kiếm",
+            "select": "Chọn"
+        },
+        "notify": {
+            "success": "Thành công",
+            "affected": "Đã ảnh hưởng {data} bản ghi",
+            "error": "Lỗi",
+            "warning": "Cảnh báo",
+            "info": "Thông tin",
+            "confirm": "Xác nhận",
+            "save_success": "Hệ thống đã lưu dữ liệu thành công!!!",
+            "not_show_again": "Không hiển thị lại"
+        },
+        "export": {
+            "time": {
+                "title": "Thời gian"
+            },
+            "start_date": {
+                "title": "Từ ngày"
+            },
+            "end_date": {
+                "title": "Đến ngày"
+            },
+            "show_delete": {
+                "title": "Hiển thị bản ghi đã xóa"
+            },
+            "columns": {
+                "id": "ID",
+                "title": "Cột xuất",
+                "index": "Chỉ số",
+                "name": "Tên",
+                "is_deleted": "Đã xóa",
+                "datetime0": "Ngày tạo",
+                "datetime2": "Ngày cập nhật",
+                "username0": "Người tạo",
+                "username2": "Người cập nhật"
+            },
+            "validate": "Phải chọn ít nhất một trường để xuất"
+        },
+        "profile-setting": {
+            "change_password": "Đổi mật khẩu",
+            "change_password_success": "Thay đổi mật khẩu thành công",
+            "public_profile": "Hồ sơ công khai",
+            "update_profile": "Cập nhật thông tin",
+            "profile_picture": "Ảnh đại diện",
+            "old_password": {
+                "title": "Mật khẩu cũ"
+            },
+            "new_password": {
+                "title": "Mật khẩu mới"
+            },
+            "confirm_password": {
+                "title": "Xác nhận mật khẩu",
+                "validate": "Mật khẩu không khớp"
+            },
+            "fullname": {
+                "title": "Họ và tên"
+            },
+            "email": {
+                "title": "Email"
+            },
+            "phone": {
+                "title": "Số điện thoại"
+            },
+            "birthday": {
+                "title": "Ngày sinh"
+            },
+            "gender": {
+                "title": "Giới tính"
+            },
+            "language": {
+                "title": "Ngôn ngữ"
+            },
+            "gender_options": {
+                "male": "Nam",
+                "female": "Nữ",
+                "other": "Khác"
+            }
+        },
+        "notification-menu": {
+            "refetch": "Tải lại",
+            "mark-all-read": "Đánh dấu tất cả là đã xem",
+            "mask-unread": "Đánh dấu là chưa xem",
+            "mask-read": "Đánh dấu là đã xem",
+            "tabs": {
+                "common": "Chung",
+                "approve": "Duyệt",
+                "other": "Khác"
+            }
+        },
+        "time": {
+            "seconds-ago": "{value} giây trước",
+            "minutes-ago": "{value} phút trước",
+            "hours-ago": "{value} giờ trước",
+            "days-ago": "{value} ngày trước",
+            "months-ago": "{value} tháng trước",
+            "years-ago": "{value} năm trước"
+        }
+    },
+    "NotFound": {
+        "title": "404",
+        "description": "Xin lỗi, trang bạn đang tìm kiếm không tồn tại!",
+        "action": "Trở về trang chủ"
+    },
+    "Login": {
+        "title": "Antd Admin",
+        "username": "Tài khoản",
+        "password": "Mật khẩu",
+        "login": "Đăng nhập",
+        "rememberMe": "Ghi nhớ đăng nhập",
+        "forgotPassword": "Quên mật khẩu"
+    }
+}

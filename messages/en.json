@@ -1,0 +1,281 @@
+{
+    "Common": {
+        "title": "NNT Admin",
+        "header": {
+            "profile-setting": "Install records",
+            "change-locale": "Choose language",
+            "choose-subsection": "Select the module",
+            "reset-app-config": "Put personal configuration",
+            "logout": "Log out"
+        },
+        "sider": {
+            "choose-subsection": "Select the module",
+            "filter": "Search for names, paths"
+        },
+        "bread": {
+            "not-found": "Not found"
+        },
+        "dropdown": {
+            "update": {
+                "label": "Update"
+            },
+            "delete": {
+                "label": "Erase",
+                "confirm": "Are you sure you want to delete this record?"
+            },
+            "boolean": {
+                "all": "All status",
+                "true": "Activity",
+                "false": "Not working"
+            }
+        },
+        "pagination": {
+            "show-total": "Total: {total}"
+        },
+        "table": {
+            "columns": {
+                "id": "id",
+                "operation": {
+                    "label": "",
+                    "delete-confirm": "You definitely want to delete this record?",
+                    "delete-file-confirm": "You definitely want to delete this file?"
+                },
+                "index": "stt",
+                "code": "Code",
+                "name": "Name",
+                "value": "Value",
+                "file_name": "File name",
+                "file_size": "File size",
+                "file_ext": "File extension"
+            },
+            "pagination": {
+                "show-total": "Total: {total}"
+            },
+            "select": {
+                "total-selected": "Choose {total} item"
+            },
+            "action": {
+                "delete-multiple": {
+                    "label": "You definitely want to delete these items?",
+                    "action": "Erase"
+                }
+            }
+        },
+        "filter": {
+            "label": "Filter",
+            "fields": {
+                "keyword": {
+                    "title": "Key word",
+                    "placeholder": "Search code, name"
+                }
+            },
+            "action": {
+                "submit": "Search",
+                "refresh": "Erase",
+                "close": "Cancel",
+                "create": "Add new",
+                "update": "Edit",
+                "delete": "Erase",
+                "view": "See details",
+                "reload": "Reload",
+                "save": "Save",
+                "unchecked": "Not selected",
+                "none": "",
+                "filter": "Filter",
+                "export": "Export",
+                "upload": "Upload",
+                "download": "Download",
+                "approved": "Browser",
+                "cancel": "Refuse",
+                "close_": "Close"
+            }
+        },
+        "form": {
+            "add": "Add new",
+            "remove": "Erase",
+            "upload": "Click to upload",
+            "upload_valid": "This file is not valid.The type of files allowed is {data}",
+            "validate": {
+                "string": {
+                    "required": "This school is mandatory",
+                    "type_error": "This school must be a series",
+                    "min": "This school must have at least {min} characters",
+                    "max": "This school must not exceed {max} characters",
+                    "matches": "Invalid format.Example: {example}",
+                    "matches-valid": "Invalid format."
+                },
+                "number": {
+                    "required": "This school is mandatory",
+                    "type_error": "This school must be the number",
+                    "min": "This school must be greater than or equal to {min}",
+                    "max": "This school must not exceed {max}",
+                    "positive": "This school must be greater than or equal to 0"
+                },
+                "array": {
+                    "required": "This school is mandatory",
+                    "type_error": "This school must be an array",
+                    "min": "This school must contain at least {min} items",
+                    "max": "This school must not exceed {max} item"
+                },
+                "boolean": {
+                    "required": "This school is mandatory",
+                    "type_error": "This school must be a boolean"
+                },
+                "date": {
+                    "required": "This school is mandatory",
+                    "type_error": "This school must be a day"
+                },
+                "email": {
+                    "required": "This school is mandatory",
+                    "type_error": "Email address is not valid"
+                },
+                "url": {
+                    "required": "This school is mandatory",
+                    "type_error": "Invalid URL"
+                }
+            },
+            "enabled": {
+                "checked": "Have",
+                "unchecked": "Are not"
+            },
+            "status_form": {
+                "checked": "Use",
+                "unchecked": "Stop using"
+            },
+            "confirm": {
+                "save": "Are you sure you want to save these changes?"
+            },
+            "tag": {
+                "add": "More"
+            }
+        },
+
+        "boolean": {
+            "true": "Activity",
+            "false": "Stop working",
+            "all": "All"
+        },
+        "status_form": {
+            "true": "Activity",
+            "false": "Stop working"
+        },
+        "modal": {
+            "create": "Create {data}",
+            "update": "Update {data}",
+            "view": "Details {data}",
+            "confirm": "Are you sure you want to close the window?",
+            "none": "",
+            "add": "More",
+            "look_up": "Search",
+            "select": "Select"
+        },
+        "notify": {
+            "success": "Success",
+            "affected": "It has influenced {data} records",
+            "error": "Error",
+            "warning": "Warning",
+            "info": "Information",
+            "confirm": "Confirm",
+            "save_success": "The system has saved the data successfully !!!",
+            "not_show_again": "Do not show again"
+        },
+        "export": {
+            "time": {
+                "title": "Time"
+            },
+            "start_date": {
+                "title": "Since"
+            },
+            "end_date": {
+                "title": "To date"
+            },
+            "show_delete": {
+                "title": "Display deleted records"
+            },
+            "columns": {
+                "id": "id",
+                "title": "Export column",
+                "index": "Index",
+                "name": "Name",
+                "is_deleted": "Deleted",
+                "datetime0": "Date created",
+                "datetime2": "Update day",
+                "username0": "Creator",
+                "username2": "Update"
+            },
+            "validate": "Must choose at least one school to export"
+        },
+        "profile-setting": {
+            "change_password": "Change Password",
+            "change_password_success": "Change the password successfully",
+            "public_profile": "Public Profile",
+            "update_profile": "Update information",
+            "profile_picture": "Avatar",
+            "old_password": {
+                "title": "Old password"
+            },
+            "new_password": {
+                "title": "A new password"
+            },
+            "confirm_password": {
+                "title": "Confirm password",
+                "validate": "Password incorrect"
+            },
+            "fullName": {
+                "title": "First and last name"
+            },
+            "email": {
+                "title": "email"
+            },
+            "phone": {
+                "title": "Phone number"
+            },
+            "birthday": {
+                "title": "Date of birth"
+            },
+            "gender": {
+                "title": "Gender"
+            },
+            "language": {
+                "title": "Language"
+            },
+            "gender_options": {
+                "male": "nam",
+                "female": "Female",
+                "other": "Other"
+            }
+        },
+        "notification-menu": {
+            "refetch": "Reload",
+            "mark-all-read": "Mark all is viewed",
+            "mask-unread": "Mark is not viewed",
+            "mask-read": "Mark is viewed",
+            "tabs": {
+                "common": "chung",
+                "approve": "Browser",
+                "other": "Other"
+            }
+        },
+        "time": {
+            "seconds-ago": "{value} seconds ago",
+            "minutes-ago": "{value} minutes ago",
+            "hours-ago": "{value} Previously",
+            "days-ago": "{value} The previous day",
+            "months-ago": "{value} last month",
+            "years-ago": "{value} last year"
+        }
+    },
+    "NotFound": {
+        "title": "404",
+        "description": "Sorry, the page you are looking for does not exist!",
+        "action": "Return to the homepage"
+    },
+    "Login": {
+        "title": "NNT Admin",
+        "username": "Account",
+        "password": "Password",
+        "login": "Log in",
+        "rememberMe": "Remember login",
+        "forgotPassword": "Forgot password"
+    }
+}
